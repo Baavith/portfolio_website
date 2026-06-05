@@ -8,7 +8,7 @@ export const personal = {
   portfolio: "#",
   typingRoles: [
     "AIML Enthusiast",
-    "Full Stack Developer",
+    "Python Developer",
     "Data Analyst",
     "Deep Learning Explorer",
     "Problem Solver",
