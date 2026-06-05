@@ -132,6 +132,12 @@ export default function Hero() {
           Available for Opportunities
         </div>
 
+        {/* Avatar */}
+        <div style={{ width:"120px", height:"120px", borderRadius:"50%", margin:"0 auto 28px", position:"relative", display:"inline-block" }}>
+          <div style={{ position:"absolute", inset:"-3px", borderRadius:"50%", background:"linear-gradient(135deg,#ff006e,#8338ec,#06d6a0)", zIndex:0 }} />
+          <img src="/avatar.jpg" alt="Baavith" style={{ width:"114px", height:"114px", borderRadius:"50%", objectFit:"cover", objectPosition:"top", position:"relative", zIndex:1, display:"block", margin:"3px auto 0", border:"3px solid #040414" }} />
+        </div>
+
         {/* Name */}
         <h1 style={{
           fontSize: "clamp(2.8rem, 7vw, 6rem)",
