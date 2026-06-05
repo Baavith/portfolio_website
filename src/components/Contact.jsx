@@ -180,6 +180,7 @@ export default function Contact() {
                 color: "rgba(255,255,255,0.75)",
                 fontFamily: "'DM Sans', sans-serif",
                 fontWeight: 500,
+                wordBreak: "break-all",
               }}>{s.value}</div>
             </div>
           </a>

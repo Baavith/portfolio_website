@@ -16,7 +16,7 @@ function ExpCard({ exp, index }) {
       ref={ref}
       style={{
         display: "grid",
-        gridTemplateColumns: "1fr 56px 1fr",
+        gridTemplateColumns: "1fr 40px 1fr",
         gap: "0",
         opacity: visible ? 1 : 0,
         transform: visible ? "translateY(0)" : "translateY(30px)",
@@ -71,7 +71,7 @@ function ExpCard({ exp, index }) {
       </div>
 
       <style>{`
-        @media(max-width: 768px) {
+        @media(max-width: 900px) {
           .exp-row { grid-template-columns: 24px 1fr !important; }
           .left-content { display: none !important; }
           .right-content { display: block !important; padding: 0 0 32px 20px !important; }
