@@ -32,8 +32,8 @@ export const skills = {
   "Languages": ["Python", "R", "SQL", "C", "Java", "JavaScript"],
   "AI / ML": ["Supervised Learning", "Unsupervised Learning", "Deep Learning", "NLP", "ANN", "CNN"],
   "Libraries": ["TensorFlow", "NumPy", "Pandas", "OpenCV", "DeepFace", "Scikit-learn", "Matplotlib"],
-  "Web Tech": ["HTML", "CSS", "JavaScript", "React", "Vite", "Tailwind CSS"],
-  "Tools": ["Git", "GitHub", "VS Code", "Vercel", "Prometheus", "Grafana", "Loki"],
+  "Web Tech": ["HTML", "CSS", "JavaScript", "React"],
+  "Tools": ["Git", "GitHub", "VS Code", "Vercel"],
   "Data & BI": ["Power BI", "EDA", "Data Cleaning", "Data Visualization"],
 };
 
@@ -61,15 +61,37 @@ export const projects = [
     icon: "🎓",
   },
   {
-    title: "Log Monitoring & Data Visualization System",
+    title: "Handwritten Digit Recognition System",
     description:
-      "An end-to-end monitoring and alerting system tracking application behavior and system health using Prometheus, Grafana, and Loki with real-time log aggregation and automated alerts.",
-    tech: ["Python", "Prometheus", "Grafana", "Loki"],
+      "Built and trained a CNN model on the MNIST dataset achieving 98% accuracy. Implemented hyperparameter tuning and dropout regularization to reduce overfitting.",
+    tech: ["Python", "TensorFlow", "Keras"],
     link: "#",
     github: "#",
-    highlight: "Real-time observability & incident response",
+    highlight: "98% accuracy on MNIST dataset",
     gradient: "from-[#ffd60a] to-[#ff7c43]",
-    icon: "📊",
+    icon: "✍️",
+  },
+  {
+    title: "Medicine Recommendation System",
+    description:
+      "A recommendation engine using collaborative filtering for personalized medicine suggestions. Conducted data preprocessing and similarity-based matching to improve recommendation relevance.",
+    tech: ["Python", "Pandas", "Scikit-learn"],
+    link: "#",
+    github: "#",
+    highlight: "Personalized medicine recommendations",
+    gradient: "from-[#f72585] to-[#7209b7]",
+    icon: "💊",
+  },
+  {
+    title: "Log Monitoring & Alerting System (DevOps)",
+    description:
+      "End-to-end log monitoring and alerting pipeline using Promtail, Loki, and Prometheus for real-time observability. Integrated Grafana dashboards and Telegram webhooks for instant notifications.",
+    tech: ["Prometheus", "Grafana", "Loki", "Promtail", "Telegram API"],
+    link: "#",
+    github: "#",
+    highlight: "Instant Telegram alerts on incidents",
+    gradient: "from-[#3a86ff] to-[#06d6a0]",
+    icon: "📡",
   },
   {
     title: "Rishtawaala.com — AI Matrimonial Platform",
@@ -79,7 +101,7 @@ export const projects = [
     link: "#",
     github: "#",
     highlight: "Currently in active development",
-    gradient: "from-[#f72585] to-[#7209b7]",
+    gradient: "from-[#ff006e] to-[#8338ec]",
     icon: "💍",
   },
 ];
@@ -110,9 +132,9 @@ export const experience = [
     color: "#06d6a0",
   },
   {
-    role: "Team Lead",
+    role: "Team Lead (Intern)",
     company: "Veenero Solutions",
-    duration: "Nov 2023 – Jan 2024",
+    duration: "Nov 2022 – Jan 2023",
     location: "Hyderabad, India",
     points: [
       "Led a 6-member team to design an IoT-based automatic water pumping mechanism",
@@ -133,7 +155,7 @@ export const certifications = [
 
 export const stats = [
   { label: "SGPA", value: "9.70", suffix: "" },
-  { label: "Projects Built", value: "4", suffix: "+" },
+  { label: "Projects Built", value: "6", suffix: "+" },
   { label: "Tech Stack", value: "20", suffix: "+" },
   { label: "Certifications", value: "5", suffix: "" },
 ];
