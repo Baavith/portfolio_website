@@ -114,6 +114,17 @@ export const experience = [
     color: "#ff006e",
   },
   {
+    role: "AIML Intern",
+    company: "Elevate Labs",
+    duration: "Jun 2025 - Jul 2025",
+    location: "Hyderabad, India",
+    points: [
+      "Worked on data preprocessing, model development, and performance evaluation for AI Career Counsellor project",
+      "Gained hands-on experience in ML pipelines and deployment-ready AI solutions",
+    ],
+    color: "#8338ec",
+  },
+  {
     role: "Student Registrar (SSG)",
     company: "Hyderabad Institute of Technology and Management",
     duration: "Apr 2025 - Apr 2026",
