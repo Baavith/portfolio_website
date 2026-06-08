@@ -19,9 +19,9 @@ export const personal = {
 
 export const education = [
   {
-    degree: "B.Tech — Computer Science & Engineering",
+    degree: "B.Tech - Computer Science & Engineering",
     institution: "Hyderabad Institute of Technology and Management",
-    duration: "Nov 2022 – Feb 2026",
+    duration: "Nov 2022 - Feb 2026",
     sgpa: "9.70",
     cgpa: "8.63",
     location: "Hyderabad, India",
@@ -29,7 +29,7 @@ export const education = [
 ];
 
 export const skills = {
-  "Languages": ["Python", "R", "SQL", "C", "Java", "JavaScript"],
+  "Languages": ["Python", "R", "SQL", "C", "Java"],
   "AI / ML": ["Supervised Learning", "Unsupervised Learning", "Deep Learning", "NLP", "ANN", "CNN"],
   "Libraries": ["TensorFlow", "NumPy", "Pandas", "OpenCV", "DeepFace", "Scikit-learn", "Matplotlib"],
   "Web Tech": ["HTML", "CSS", "JavaScript", "React"],
@@ -40,69 +40,63 @@ export const skills = {
 export const projects = [
   {
     title: "AI-Based Missing Person Identification System",
-    description:
-      "An AI-powered facial recognition app for identifying missing persons using real-time face matching, image processing workflows, and facial embedding comparison via VGG-Face model.",
+    description: "An AI-powered facial recognition app for identifying missing persons using real-time face matching, image processing workflows, and facial embedding comparison via VGG-Face model.",
     tech: ["Python", "OpenCV", "DeepFace", "TensorFlow"],
     link: "#",
     github: "#",
     highlight: "Reduced manual verification efforts significantly",
-    gradient: "from-[#ff006e] to-[#8338ec]",
-    icon: "🔍",
+    gradient: "from-pink to-violet",
+    icon: "AI",
   },
   {
-    title: "ATLAS — AI-Powered Career & Education Guidance",
-    description:
-      "An intelligent recommendation system for career and higher education using NLP and ML workflows. Improved recommendation accuracy by 12% with preprocessing, feature logic, and evaluation pipelines.",
+    title: "ATLAS - AI-Powered Career & Education Guidance",
+    description: "An intelligent recommendation system for career and higher education using NLP and ML workflows. Improved recommendation accuracy by 12% with preprocessing, feature logic, and evaluation pipelines.",
     tech: ["Python", "Pandas", "Scikit-learn", "NLP"],
     link: "#",
     github: "#",
     highlight: "12% improvement in recommendation accuracy",
-    gradient: "from-[#06d6a0] to-[#118ab2]",
-    icon: "🎓",
+    gradient: "from-green to-blue",
+    icon: "EDU",
   },
   {
     title: "Handwritten Digit Recognition System",
-    description:
-      "Built and trained a CNN model on the MNIST dataset achieving 98% accuracy. Implemented hyperparameter tuning and dropout regularization to reduce overfitting.",
+    description: "Built and trained a CNN model on the MNIST dataset achieving 98% accuracy. Implemented hyperparameter tuning and dropout regularization to reduce overfitting.",
     tech: ["Python", "TensorFlow", "Keras"],
     link: "#",
     github: "#",
     highlight: "98% accuracy on MNIST dataset",
-    gradient: "from-[#ffd60a] to-[#ff7c43]",
-    icon: "✍️",
+    gradient: "from-yellow to-orange",
+    icon: "CNN",
   },
   {
     title: "Medicine Recommendation System",
-    description:
-      "A recommendation engine using collaborative filtering for personalized medicine suggestions. Conducted data preprocessing and similarity-based matching to improve recommendation relevance.",
+    description: "A recommendation engine using collaborative filtering for personalized medicine suggestions. Conducted data preprocessing and similarity-based matching to improve recommendation relevance.",
     tech: ["Python", "Pandas", "Scikit-learn"],
     link: "#",
     github: "#",
     highlight: "Personalized medicine recommendations",
-    gradient: "from-[#f72585] to-[#7209b7]",
-    icon: "💊",
+    gradient: "from-pink to-purple",
+    icon: "MED",
   },
   {
     title: "Log Monitoring & Alerting System (DevOps)",
-    description:
-      "End-to-end log monitoring and alerting pipeline using Promtail, Loki, and Prometheus for real-time observability. Integrated Grafana dashboards and Telegram webhooks for instant notifications.",
+    description: "End-to-end log monitoring and alerting pipeline using Promtail, Loki, and Prometheus for real-time observability. Integrated Grafana dashboards and Telegram webhooks for instant notifications.",
     tech: ["Prometheus", "Grafana", "Loki", "Promtail", "Telegram API"],
     link: "#",
     github: "#",
     highlight: "Instant Telegram alerts on incidents",
-    gradient: "from-[#3a86ff] to-[#06d6a0]",
-    icon: "📡",
+    gradient: "from-blue to-green",
+    icon: "OPS",
   },
   {
-    title: "Rishtawaala.com — AI Matrimonial Platform",
-    description:
-      "An AI-powered matrimonial platform with a Partner Meter for compatibility scoring and personalized matchmaking recommendations. Building recommendation logic and profile matching systems.",
+    title: "Rishtawaala.com - AI Matrimonial Platform",
+    description: "An AI-powered matrimonial platform with a Partner Meter for compatibility scoring and personalized matchmaking recommendations. Building recommendation logic and profile matching systems.",
     tech: ["AI/ML", "Python", "React", "Recommendation Systems"],
     link: "#",
     github: "#",
     highlight: "Currently in active development",
-    gradient: "from-[#ff006e] to-[#8338ec]",
-    icon: "💍",
+    gradient: "from-pink to-violet",
+    icon: "AI",
   },
 ];
 
@@ -110,10 +104,10 @@ export const experience = [
   {
     role: "Software Engineer Intern",
     company: "Yuga Yatra Retail (OPC) Pvt. Ltd",
-    duration: "May 2026 – Present",
+    duration: "May 2026 - Present",
     location: "Hyderabad, India",
     points: [
-      "Developing Rishtawaala.com — an AI-powered matrimonial platform",
+      "Developing Rishtawaala.com - an AI-powered matrimonial platform",
       "Building Partner Meter for compatibility scoring and personalized matchmaking",
       "Contributing to recommendation logic, profile matching, and platform feature development",
     ],
@@ -122,7 +116,7 @@ export const experience = [
   {
     role: "Student Registrar (SSG)",
     company: "Hyderabad Institute of Technology and Management",
-    duration: "Apr 2025 – Apr 2026",
+    duration: "Apr 2025 - Apr 2026",
     location: "Hyderabad, India",
     points: [
       "Coordinated student administration, communication, and grievances",
@@ -134,11 +128,10 @@ export const experience = [
   {
     role: "Team Lead (Intern)",
     company: "Veenero Solutions",
-    duration: "Nov 2022 – Jan 2023",
+    duration: "Nov 2022 - Jan 2023",
     location: "Hyderabad, India",
     points: [
-      "Led a 6-member team to design an IoT-based automatic water pumping mechanism",
-      "Utilized ultrasonic sensors for smart water level detection",
+      "Led a 6-member team to design an IoT-based automatic water pumping mechanism using ultrasonic sensors",
       "Oversaw hardware-software integration and testing phases successfully",
     ],
     color: "#ffd60a",
@@ -146,11 +139,11 @@ export const experience = [
 ];
 
 export const certifications = [
-  { name: "Power BI", issuer: "Simplilearn", icon: "📊" },
-  { name: "R Programming", issuer: "Infosys Springboard", icon: "📈" },
-  { name: "Python Fundamentals", issuer: "Infosys Springboard", icon: "🐍" },
-  { name: "Artificial Intelligence", issuer: "IUCEE", icon: "🤖" },
-  { name: "Entrepreneurship", issuer: "Simplilearn", icon: "🚀" },
+  { name: "Power BI", issuer: "Simplilearn", icon: "PBI" },
+  { name: "R Programming", issuer: "Infosys Springboard", icon: "R" },
+  { name: "Python Fundamentals", issuer: "Infosys Springboard", icon: "PY" },
+  { name: "Artificial Intelligence", issuer: "IUCEE", icon: "AI" },
+  { name: "Entrepreneurship", issuer: "Simplilearn", icon: "ENT" },
 ];
 
 export const stats = [
